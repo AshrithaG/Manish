@@ -31,5 +31,5 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      g++ a.cpp
+      g++ "a.cpp"
       ./a.out
