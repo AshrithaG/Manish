@@ -28,11 +28,8 @@ steps:
     script: |
       print('Hello world 1')
       print('Hello world 2')
-
-
-Settings
- - task: CmdLine@2
-        inputs:
-          script: |
-            g++ "a.cpp"
-            ./a.out
+- task: CmdLine@2
+  inputs:
+    script: |
+      g++ a.cpp
+      ./a.out
