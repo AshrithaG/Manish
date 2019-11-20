@@ -20,7 +20,7 @@ steps:
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
 
-- script: python src/a.py
+- script: python "a.py"
 
 - task: PythonScript@0
   inputs:
